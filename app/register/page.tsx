@@ -16,10 +16,13 @@ export default function RegisterUser() {
     formData.append("email", email);
     formData.append("password", password);
 
-    const res = await fetch("https://petadoptiondz.infinityfree.me/backend/register.php", {
-      method: "POST",
-      body: formData,
-    });
+    const res = await fetch(
+      "https://petadoptiondz.infinityfree.me/backend/register.php",
+      {
+        method: "POST",
+        body: formData,
+      }
+    );
 
     const data = await res.json();
     if (data.success) {
@@ -64,6 +67,22 @@ export default function RegisterUser() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
+
+          <h4
+            onClick={() => router.push("/recover")}
+            className="text-black cursor-pointer mb-2 mt-5 text-sm"
+          >
+            Forgot Password
+          </h4>
+          <h4 className="text-black text-sm">
+            Have an account?{" "}
+            <span
+              onClick={() => router.push("/login")}
+              className="text-blue-600 cursor-pointer text-sm"
+            >
+              Login
+            </span>
+          </h4>
 
           <button
             onClick={handleRegister}
