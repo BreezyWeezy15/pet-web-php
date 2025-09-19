@@ -17,7 +17,7 @@ export default function RegisterUser() {
     formData.append("password", password);
 
     const res = await fetch(
-      "http://petsadoptiondz.byethost7.com/register.php",
+      "https://petsadoptiondz.byethost7.com/register.php",
       {
         method: "POST",
         body: formData,
