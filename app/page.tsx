@@ -33,3 +33,21 @@ export default function Home() {
     </div>
   );
 }
+
+
+/*  
+
+
+Control panel username:	b7_39980238
+Control panel password:	**********
+Control panel URL:	cpanel.byethost7.com
+MySQL username	b7_39980238
+MySQL password:	**********
+MySQL hostname:	sql209.byethost7.com
+FTP username:	b7_39980238
+FTP password:	**********
+FTP host name:	ftp.byethost7.com
+Your Website URL:	http://petsadoptiondz.byethost7.com
+ 	 
+
+*/ 

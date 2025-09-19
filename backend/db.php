@@ -4,10 +4,10 @@ header("Access-Control-Allow-Origin: https://pet-web-php-bam7-git-master-breezyw
 header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
 header("Access-Control-Allow-Headers: Content-Type");
 
-  const DATABASE_NAME = "4685925_pets";
-  const DATABASE_USERNAME ="4685925_pets";
-  const DATABASE_HOST = "fdb1033.awardspace.net";
-  const DATABASE_PASSWORD = "-swODUUF3H)3d5;X";
+  const DATABASE_NAME = "b7_39980238_users";
+  const DATABASE_USERNAME ="b7_39980238";
+  const DATABASE_HOST = "sql209.byethost7.com";
+  const DATABASE_PASSWORD = "14041994";
 
 
    $conn = new mysqli(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);
