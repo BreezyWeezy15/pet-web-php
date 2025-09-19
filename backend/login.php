@@ -1,5 +1,9 @@
 <?php
 
+header("Access-Control-Allow-Origin: https://pet-web-php-bam7-git-master-breezyweezy15s-projects.vercel.app");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
+
    include("db.php");
 
   $conn = new mysqli(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);

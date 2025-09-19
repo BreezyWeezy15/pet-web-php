@@ -1,10 +1,13 @@
 <?php
 
+header("Access-Control-Allow-Origin: https://pet-web-php-bam7-git-master-breezyweezy15s-projects.vercel.app");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type");
 
-  const DATABASE_NAME = "if0_39977656_pets_db";
-  const DATABASE_USERNAME ="if0_39977656";
-  const DATABASE_HOST = "sql306.infinityfree.com";
-  const DATABASE_PASSWORD = "Dallasson12";
+  const DATABASE_NAME = "4685925_pets";
+  const DATABASE_USERNAME ="4685925_pets";
+  const DATABASE_HOST = "fdb1033.awardspace.net";
+  const DATABASE_PASSWORD = "-swODUUF3H)3d5;X";
 
 
    $conn = new mysqli(DATABASE_HOST, DATABASE_USERNAME, DATABASE_PASSWORD, DATABASE_NAME);
